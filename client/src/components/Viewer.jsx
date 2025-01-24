@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import io from 'socket.io-client';
 
-const SOCKET_SERVER = 'http://localhost:4000';
+const SOCKET_SERVER = 'https://webrtc-88n6.onrender.com/';
 
 const Viewer = () => {
   const [socket, setSocket] = useState(null);
